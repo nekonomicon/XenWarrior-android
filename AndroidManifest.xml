@@ -7,7 +7,7 @@
     <uses-sdk android:minSdkVersion="3" android:targetSdkVersion="23"/>
     <!-- Set your application name here -->
     <application android:label="Xen-Warrior"
-		 android:debuggable="true"
+		 android:debuggable="false"
 		 android:icon="@drawable/logo_xash_spirit">
     <!-- Set your launcher title here -->
         <activity android:name="in.celest.xash3d.LauncherActivity"
