@@ -46,7 +46,7 @@ public class LauncherActivity extends Activity {
 		editor.apply();
 		if(cmdArgs.length() != 0) intent.putExtra("argv", cmdArgs.getText().toString());
 		// Uncomment to set gamedir here
-		intent.putExtra("gamedir", "rebellion" );
+		intent.putExtra("gamedir", "xenwar" );
 		intent.putExtra("gamelibdir", getFilesDir().getAbsolutePath().replace("/files","/lib"));
 
 		PackageManager pm = getPackageManager();
